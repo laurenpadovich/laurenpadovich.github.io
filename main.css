@@ -16,10 +16,6 @@ h1 {
     font-size: 40px;
 }
 
-img {
-    width:140px;
-}
-
 h2 {
     border-bottom: 1px solid black;
 }
@@ -27,6 +23,7 @@ h2 {
 #picture{
     float: right;
     box-shadow:black;
+    width: 140px;
 }
 
 .updated{
