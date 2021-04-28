@@ -13,7 +13,6 @@ let months = [
     "12"
 ];
 let d = new Date();
-let dayName = daynames[d.getDay()];
 let monthNum = months[d.getMonth()];
 let year = d.getFullYear();
 let fulldate = monthNum + "/" + d.getDate() + "/" + year + " " + d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds;
