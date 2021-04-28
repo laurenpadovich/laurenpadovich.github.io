@@ -17,4 +17,9 @@ let monthNum = months[d.getMonth()];
 let year = d.getFullYear();
 let fulldate = monthNum + "/" + d.getDate() + "/" + year + " " + d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
 
-document.getElementById("currentdate").textContent = fulldate;
+
+
+let date = new Date();
+document.getElementById("currentYear").textContent = date.getFullYear();
+let lastUpdated = document.lastModified;
+document.getElementById("lastUpdated").textContent = lastUpdated;
