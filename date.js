@@ -15,6 +15,6 @@ let months = [
 let d = new Date();
 let monthNum = months[d.getMonth()];
 let year = d.getFullYear();
-let fulldate = monthNum + "/" + d.getDate() + "/" + year + " " + d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds;
+let fulldate = monthNum + "/" + d.getDate() + "/" + year + " " + d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
 
 document.getElementById("currentdate").textContent = fulldate;
