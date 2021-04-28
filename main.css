@@ -3,6 +3,10 @@ header, footer {
     text-align:center;
     background-color:blueviolet;
     border-radius: 10px;
+    
+}
+
+footer{
     padding:5px;
 }
 
@@ -12,18 +16,37 @@ header, main, footer {
 
 }
 
+ul li {
+    font-size: 19px;
+}
+
+footer a{
+    color:white;
+}
+
+main, footer {
+    line-height: 1.5em;
+    font-family: 'Nunito', sans-serif;
+}
+
 h1 {
-    font-size: 40px;
+    font-size: 50px;
+    padding: 13px;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 h2 {
     border-bottom: 1px solid black;
+    padding: 3px;
+    max-width: 800px;
 }
 
 #picture{
     float: right;
-    box-shadow:black;
-    width: 140px;
+    box-shadow: 0 4px 20px 0 black;
+    width: 160px;
+    margin-right: 10px;
+    margin-top: 10px;
 }
 
 .updated{
