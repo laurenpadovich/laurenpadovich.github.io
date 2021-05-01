@@ -2,8 +2,6 @@ header, footer {
     color:white;
     text-align:center;
     background-color:blueviolet;
-    border-radius: 10px;
-    
 }
 
 footer{
@@ -30,7 +28,7 @@ main, footer {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 30px;
     padding: 13px;
     font-family: 'Fira Sans', sans-serif;
 }
@@ -39,13 +37,12 @@ h2 {
     border-bottom: 1px solid black;
     padding: 3px;
     max-width: 750px;
+    font-size: 15px;
 }
 
 #picture{
-    float: right;
-    box-shadow: 0 4px 20px 0 black;
     width: 160px;
-    margin-right: 10px;
+    height: auto;
     margin-top: 10px;
 }
 
