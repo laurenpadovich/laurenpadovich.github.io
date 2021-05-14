@@ -29,8 +29,22 @@
     }
     main div {
         font-size: 19px;
+        
+    }
+    .forecast p {
+        grid-column: 1/6;
+    }
+    .forecast {
+        grid-template-columns: repeat(5, auto);
+    }
+    .forecastimg {
+        display: block;
+        width: 75px;
+        justify-self: center;
+        align-self: center;
     }
     footer {
         font-size: 16px;
+        max-width:760px;
     }
 }

@@ -78,7 +78,7 @@ h1, h2 {
     font-family: 'Noto Sans JP', sans-serif;
 }
 main div {
-    display:block;
+    display:grid;
     margin: 10px auto;
     padding:15px;
     border: 1px dashed black;
@@ -95,10 +95,15 @@ main{
 h2{
     font-size: 20px;
 }
-
-
-
-
+.hero {
+    max-width: 100%;
+}
+.forecastimg {
+    display: none;
+}
+.map {
+    max-width:100%;
+}
 footer a {
     color: #DB8906;
 }
@@ -109,4 +114,6 @@ footer {
     text-align:center;
     font-size:12px;
     display:block;
+    max-width:360px;
+    margin: 0 auto;
 }

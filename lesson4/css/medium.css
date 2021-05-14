@@ -49,5 +49,6 @@
     }
     footer {
         font-size: 14px;
+        max-width:560px;
     }
 }
