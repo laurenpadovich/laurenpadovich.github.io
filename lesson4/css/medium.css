@@ -1,0 +1,53 @@
+@media only screen and (min-width: 34.5em){
+    nav {
+        max-width: 100%;
+    }
+    #navigation {
+        grid-template-columns: repeat(6,auto);
+        
+    }
+    #navigation a.active {
+        background-color: #97D0D8;
+        color:#242C2D;
+    }
+    #navigation li{
+        display: block;
+    }
+    #navigation a {
+        text-align: center;
+        font-size: 15px;
+    }
+    #navigation li:first-child{
+        display: none;
+    }
+    h1 {
+        font-size: 30px;
+        /*grid-row: 1;
+        grid-column: 2;*/
+    }
+    header div {
+        font-size: 20px;
+        /*grid-column: 2;
+        grid-row: 1;*/
+    }
+    .logo {
+        width: 100px;
+        padding: 15px;
+        justify-self: right;
+        /*grid-row: 1;*/
+        grid-column: 1/2;
+    }
+    main{
+        max-width: 560px;
+        margin: 0 auto;
+    }
+    main div {
+        font-size: 17px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    footer {
+        font-size: 14px;
+    }
+}
