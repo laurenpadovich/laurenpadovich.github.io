@@ -78,7 +78,6 @@ h1, h2 {
     font-family: 'Noto Sans JP', sans-serif;
 }
 main div {
-    display:grid;
     margin: 10px auto;
     padding:15px;
     border: 1px dashed black;
