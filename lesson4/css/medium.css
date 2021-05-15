@@ -60,6 +60,11 @@
         display:block;
         grid-column: 1/4;
     }
+    .articleimg {
+        grid-row:2/3;
+        display:block;
+        grid-column: 1/4;
+    }
     footer {
         font-size: 14px;
         max-width:560px;

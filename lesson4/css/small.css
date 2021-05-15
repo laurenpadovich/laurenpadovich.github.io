@@ -97,6 +97,9 @@ h2{
 .hero {
     max-width: 100%;
 }
+.articleimg {
+    max-width: 100%;
+}
 .forecastimg {
     display: none;
 }
