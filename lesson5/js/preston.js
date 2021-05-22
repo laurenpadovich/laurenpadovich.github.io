@@ -28,7 +28,7 @@ window.addEventListener('load', (event) => {
     week.textContent = weekday[d.getDay()];
 
     const pancake = document.getElementById('pancake');
-        if (d.getDay() == 6) {
+        if (d.getDay() == 5) {
         
             pancake.style.display = "block";
         }

@@ -23,8 +23,6 @@ body {
 header {
     display:grid;
     grid-template-columns: repeat(2, auto);
-    /*grid-template-columns: 1 auto;
-    display: flex;*/
     background-color: #fff7ee;
     margin: 0 auto;
 }
@@ -32,21 +30,15 @@ header {
     width: 80px;
     padding: 15px;
     justify-self: right;
-    /*grid-row: 1;*/
     grid-column: 1/2;
 }
 h1 {
     font-size: 25px;
     margin-top: 1em;
-    /*grid-row: 1;
-    grid-column: 2;*/
 }
 header div {
     font-size: 17px;
     justify-self: left;
-    
-    /*grid-column: 2;
-    grid-row: 1;*/
 }
 header div p {
     margin-top: -.5em;
@@ -106,13 +98,7 @@ main div.summary {
     grid-template-columns: 150px 50px;
 }
 main div.forecast {
-    margin: 10px auto;
-    padding:15px;
-    line-height: 1.5em;
-    color: #242C2D;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 15px;
-    text-align:left;
+    display:none;
 }
 main div.article{
     margin: 10px auto;

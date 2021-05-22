@@ -43,7 +43,6 @@
         width: 100px;
         padding: 15px;
         justify-self: right;
-        /*grid-row: 1;*/
         grid-column: 1/2;
     }
     main{
@@ -54,10 +53,6 @@
     }
     main div.summary {
         font-size: 17px;
-        /*margin-top:10px;
-        margin-bottom: 10px;
-        margin-left: 0px;
-        margin-right: 0px;*/
         grid-column: 1/4;
     }
     .sumstats {
@@ -91,12 +86,21 @@
         justify-content:left;
     }
     main div.forecast {
+        display: block;
         font-size: 17px;
-        margin-top:10px;
-        margin-bottom: 10px;
-        margin-left: 0px;
-        margin-right: 0px;
-        grid-column: 1/4;
+        grid-column: 1/2;
+        line-height: 1.5em;
+        color: #242C2D;
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        
+    }
+    .forecast h4 {
+        grid-column:1/2;
+    }
+    .forecastimg {
+        display: block;
+        width: 60px;
+        padding: 10px;
     }
     main div.article {
         font-size: 17px;
