@@ -99,6 +99,7 @@ main div.summary {
 }
 main div.forecast {
     display:none;
+
 }
 main div.article{
     margin: 10px auto;
@@ -110,13 +111,17 @@ main div.article{
     text-align:left;
 }
 main div.contact{
-    margin: 10px auto;
+    margin: 0 auto;
+    text-align:center;
+    grid-column:1/3;
     padding:15px;
     line-height: 1.5em;
     color: #242C2D;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 15px;
-    text-align:left;
+}
+.contact h5 {
+    margin-bottom: -20px;
 }
 main{
     max-width: 360px;
@@ -135,7 +140,7 @@ h2{
     display: none;
 }
 .map {
-    max-width:100%;
+    display:none;
 }
 footer a {
     color: #DB8906;
