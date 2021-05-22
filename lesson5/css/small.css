@@ -101,6 +101,10 @@ main div.summary {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     text-align:left;
 }
+.stat {
+    display:grid;
+    grid-template-columns: 150px 50px;
+}
 main div.forecast {
     margin: 10px auto;
     padding:15px;
