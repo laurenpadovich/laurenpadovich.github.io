@@ -145,10 +145,7 @@
     .contactinfo {
         grid-row:2;
         grid-column: 2;
-    }
-    .contactinfo h4 {
-        grid-row:1;
-        text-align:center;
+        padding-left: 5px;
     }
     .contact {
         display:grid;
