@@ -57,7 +57,8 @@
     }
     .sumstats {
         display:grid;
-        grid-template-columns: repeat(2,auto);
+        max-width:560px;
+        grid-template-columns: repeat(2,280px);
     }
     div.stat:nth-of-type(1){
         grid-column:1/2;
@@ -105,7 +106,6 @@
     main div.article {
         font-size: 17px;
         margin-top:10px;
-        margin-bottom: 10px;
         margin-left: 0px;
         margin-right: 0px;
         grid-column: 1/4;
@@ -141,6 +141,7 @@
         max-width: 100%;
         grid-column:1;
         grid-row:2;
+        align-self:center;
     }
     .contactinfo {
         grid-row:2;
@@ -150,5 +151,8 @@
     .contact {
         display:grid;
         grid-template-columns: repeat( 2, auto);
+    }
+    .contactinfo img {
+        width:25px;
     }
 }
