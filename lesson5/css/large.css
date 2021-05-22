@@ -59,7 +59,7 @@
     .summary {
         grid-row: 2/3;
         opacity:.8;
-        max-width: 28%;
+        max-width: 30%;
         height: 75%;
         float: left;
         align-self: center;
@@ -76,9 +76,10 @@
         margin: 0 auto;
         line-height: 1.2em;
         text-align:left;
+        margin-left: -60px;
     }
     .summary h3 {
-        margin: 0px;
+        margin: 0;
         color: #DB8906;
         text-align: center;
     }

@@ -34,13 +34,10 @@
     }
     h1 {
         font-size: 30px;
-        /*grid-row: 1;
-        grid-column: 2;*/
     }
     header div {
         font-size: 20px;
-        /*grid-column: 2;
-        grid-row: 1;*/
+        
     }
     .logo {
         width: 100px;
@@ -62,11 +59,13 @@
         margin-left: 0px;
         margin-right: 0px;*/
         grid-column: 1/4;
+    }
+    .sumstats {
         display:grid;
         grid-template-columns: repeat(2,auto);
     }
-    .sumstats {
-        grid-column: 1/7;
+    .stat:nth-of-type(4){
+        grid-column:2;
     }
     .stat {
         display:grid;
