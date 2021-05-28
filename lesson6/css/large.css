@@ -28,11 +28,17 @@
         grid-column: 1/2;
     }
     main{
-        max-width: 760px;
+        max-width: 850px;
         margin: 0 auto;
     }
     h2{
         font-size: 30px;
+    }
+    picture{
+        max-width:100%;
+        grid-row:2/3;
+        display:block;
+        grid-column: 1/4;
     }
     main div {
         font-size: 19px;
@@ -125,6 +131,6 @@
     }
     footer {
         font-size: 16px;
-        max-width:760px;
+        max-width:850px;
     }
 }
