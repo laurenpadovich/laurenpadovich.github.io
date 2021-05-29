@@ -61,9 +61,9 @@
         grid-row: 2/3;
         opacity:.8;
         max-width: 30%;
-        height: 75%;
+        height: 50%;
         float: left;
-        align-self: center;
+        margin-top: 20px;
         margin-left: 20px;
         background-color: black;
         grid-column: 1/4;
