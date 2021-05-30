@@ -46,32 +46,27 @@
 .bio p:nth-of-type(2){
     line-height: 40px;
 }
-.maingrid img .pic1, .pic2, .pic3, .pic4{
+.maingrid img.pic1, .pic2, .pic3, .pic4{
+    grid-row: 4/5;
     justify-self: center;
     width:115px;
     padding-bottom:30px;
 }
 .pic1{
-    grid-row: 4/5;
     grid-column: 1/2;
-    justify-self: center;
-    width:115px;
 }
 
 .pic2{
-    grid-row: 4/5;
     grid-column: 2/3;
     opacity: .5;
 }
 
 .pic3{
-    grid-row: 4/5;
     grid-column: 3/4;
     opacity: .5;
 }
 
 .pic4{
-    grid-row: 4/5;
     grid-column: 4/5;
     opacity: .5;
 }
