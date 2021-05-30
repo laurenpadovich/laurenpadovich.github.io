@@ -1,0 +1,88 @@
+.maingrid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 600px;
+    margin: 0 auto;
+    background: linear-gradient(0deg, rgba(50,97,159,1) 10%,rgba(2, 206, 247, 0.33) 50%, rgba(255, 255, 255, 0) 80%);
+}
+
+.profile{
+   grid-column: 1/5;
+   grid-row: 1/5; 
+   z-index: -1;
+}
+
+.left{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-top: 50px;
+    justify-self: center;
+}
+
+.right{
+    grid-column: 4/5;
+    grid-row: 1/2;
+    margin-top: 50px;
+    justify-self: center;
+}
+
+.bio{
+    grid-column: 1/5;
+    grid-row: 3/4;
+    font-family: Arial;
+    color: white;
+    padding: 35px 35px;
+}
+
+.first{
+    font-size: 62px;
+    margin: 0 auto;
+}
+
+.last{
+    font-size: 62px;
+    line-height: 60px;
+    margin: 0 auto;
+}
+
+.p1{
+    margin: 0px;
+    font-size: 27px;
+}
+
+.p2{
+    font-size: 27px;
+    line-height: 40px
+}
+
+.pic1{
+    grid-row: 4/5;
+    grid-column: 1/2;
+    justify-self: center;
+    width:115px;
+}
+
+.pic2{
+    grid-row: 4/5;
+    grid-column: 2/3;
+    justify-self: center;
+    opacity: .5;
+    width:115px;
+    padding-bottom:30px;
+}
+
+.pic3{
+    grid-row: 4/5;
+    grid-column: 3/4;
+    justify-self: center;
+    opacity: .5;
+    width:115px;
+}
+
+.pic4{
+    grid-row: 4/5;
+    grid-column: 4/5;
+    justify-self: center;
+    opacity: .5;
+    width:115px;
+}
