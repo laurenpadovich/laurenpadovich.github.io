@@ -31,26 +31,20 @@
     color: white;
     padding: 35px 35px;
 }
-
-.first{
+.bio h1{
     font-size: 62px;
     margin: 0 auto;
 }
 
-.last{
-    font-size: 62px;
+.bio h1:nth-of-type(2){
     line-height: 60px;
-    margin: 0 auto;
 }
-
-.p1{
-    margin: 0px;
+.bio p {
     font-size: 27px;
 }
 
-.p2{
-    font-size: 27px;
-    line-height: 40px
+.bio p:nth-of-type(2){
+    line-height: 40px;
 }
 
 .pic1{
