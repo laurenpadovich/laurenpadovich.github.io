@@ -1,0 +1,9 @@
+/*body{
+    display:grid;
+    grid-template-columns: 1fr;
+}*/
+img {
+    border: 1px solid red;
+    min-width: 50px;
+    min-height: 50px;
+}
