@@ -32,6 +32,20 @@ header {
     justify-self: right;
     grid-column: 1/2;
 }
+figure img{
+    max-width:100%;
+}
+.loading {
+    background-color:lightgray;
+}
+.figur::before {
+    content:"";
+    display:block;
+    animation:load 3s;
+}
+figure{
+    margin: 15px;
+}
 h1 {
     font-size: 25px;
     margin-top: 1em;
