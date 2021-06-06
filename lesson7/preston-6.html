@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Preston Idaho | Picnic Weather</title>
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="css/small.css" rel="stylesheet">
+        <link href="css/medium.css" rel="stylesheet">
+        <link href="css/large.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Noto+Sans+JP&display=swap" rel="stylesheet">  
+        <script src="js/preston.js"></script>
+        <script src="js/windchill.js"></script>
+    </head>
+    <body>
+        <div id="pancake">
+                <img src="images/pancakes.png" alt="pancake banner">
+                <p>
+                    Saturday = Preston Pancakes in the Park! 9:00 a.m. 
+                    <br>
+                    Saturday at the city park pavilion.
+                </p>
+            </div>
+        <header>
+            
+            <img class="logo" src="images/cloudy128.png" alt="logo">
+            <div>
+            <h1>Picnic Weather</h1>
+            <p>Plan for a perfect picnic!</p>
+            </div>
+        </header>    
+            <nav>
+                <ul id="navigation">
+                    <li><a class="ham" href="#">&#9776;</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a class= "active" href="preston-6.html">Preston</a></li>
+                    <li><a href="#">Soda Springs</a></li>
+                    <li><a href="#">Fish Haven</a></li>
+                    <li><a href="#">Storm Center</a></li>
+                    <li><a href="gallery-7.html">Gallery</a></li>
+                </ul>
+            </nav>
+        <main>
+            <h2>Preston Idaho</h2>
+            <picture>
+                <source srcset="images/heromedium.jpg" media="(min-width:34.5em) and (max-width:871px)">
+                <source srcset="images/herolarge.jpg" media="(min-width:871px)">
+                <img class= "hero" src="images/herosmall.jpg" alt="hero">
+            </picture>
+            <div class="summary">
+                <h3>Weather Summary</h3>
+                <div class="sumstats">
+                    <div class="stat">
+                        <p>Currently:</p>
+                        <p><span id="temp">54</span>°F</p>
+                    </div>
+                    <div class="stat">
+                        <p>High:</p>
+                        <p><span>77</span>°F</p>
+                    </div>
+                    <div class="stat">
+                        <p>Low:</p>
+                        <p><span>45</span>°F</p>
+                    </div>
+                    <div class="stat">
+                        <p>Precipitation:</p>
+                        <p><span>2</span>%</p>
+                    </div>
+                    <div class="stat">
+                        <p>Wind Chill:</p>
+                        <p><span id="chill"></span></p>
+                    </div>
+                    <div class="stat">
+                        <p>Wind Speed:</p>
+                        <p ><span id="wind">12</span>mph</p>
+                    </div>
+                </div>
+            </div>
+            <div class="forecast">
+                <h4>5 Day Forecast</h4>
+                <table>
+                    <tr>
+                        <th>Wed</th>
+                        <th>Thur</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                        <th>Sun</th>
+                    </tr>
+                    <tr>
+                        <td><img class="forecastimg" src="images/sun.png" alt="day1">68°F</td>
+                        <td><img class="forecastimg" src="images/sun.png" alt="day1">64°F</td>
+                        <td><img class="forecastimg" src="images/sun.png" alt="day1">72°F</td>
+                        <td><img class="forecastimg" src="images/sun.png" alt="day1">75°F</td>
+                        <td><img class="forecastimg" src="images/sun.png" alt="day1">78°F</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="article">
+                <h4>Article</h4>
+                <img class="articleimg" src="images/article.jpg" alt="artcile img">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="contact">
+                <div class = "contactinfo">
+                    <h4>Contact Information</h4>
+                    <h5>Picnic Weather</h5>
+                <p>50 N 120 S
+                    <br>
+                    Preston, ID 83263
+                </p>
+                
+                <p> (123)456-7890
+                    <br>
+                picnicweather@weather.com</p>
+                <img src="images/twitter.png" alt="twitter">
+                <img src="images/facebook.png" alt="fb">
+                <img src="images/instagram.png" alt=insta>
+                </div>
+                <img class="map" src="images/map.jpeg" alt="map">
+            </div>
+        </main>
+        <footer>
+            <div>
+                © <span id="currentyear"></span> | Lauren Padovich | Idaho | <a href="https://wwww.byui.edu/online" target="_blank">BYUI</a>
+                </div>
+                <div class = "currentdate">
+                    <span id="weekday"></span>, <span id="day"></span> <span id="month"></span> <span id="year"></span>
+                </div>
+        </footer>
+    </body>
