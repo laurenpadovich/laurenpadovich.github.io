@@ -38,7 +38,7 @@ figure img{
 .loading {
     background-color:lightgray;
 }
-.figur::before {
+.figure::before {
     content:"";
     display:block;
     animation:load 3s;
