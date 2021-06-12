@@ -10,7 +10,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Noto+Sans+JP&display=swap" rel="stylesheet">  
         <script src="js/preston.js"></script>
-        <script src="js/windchill.js"></script>
+        <script src="js/stormcenter.js"></script>
     </head>
     <body>
         <div id="pancake">
@@ -44,7 +44,8 @@
                 <form method="get" action="thanks.html">
                     <fieldset>
                         <legend>Report a Storm</legend>
-                        <label>Full Name: <input type="text" name="fname" required></label>
+                        <div class="block">
+                        <label>Full Name: <input type="text" name="fname" pattern="[A-Za-z\s]{5,}[A-Za-z]" required></label>
                         <br>
                         <label>Email: <input type="email" name="email" placeholder="johndoe@gmail.com"></label>
                         <br>
@@ -54,7 +55,7 @@
                         <br>
                         <label>Storm Date: <input type="date" name="date"></label>
                         <br>
-                        <label>Storm Type: <input name="types" list="stormtypes"></label>
+                        <label>Storm Type: <input class="type" name="types" list="stormtypes" placeholder="&#9662"></label>
                         <datalist id="stormtypes">
                             <option value="Flash Flood">
                             <option value="Hail">
@@ -63,8 +64,7 @@
                             <option value="Tornado">
                         </datalist>
                         <br>
-                        <label>Storm Severity: <em>(From 1 to 10) </em><input type="range" min="1" max="10" name="severity"></label>
-                        <br>
+                        <label>Storm Severity: <em id="severity-show">1</em><input type="range" min="1" max="10" onInput="severityNum(value)" id="severity" name="severity" value="1"></label>
                         <label>Storm Region: <select name="regions" id="selectregion" onchange="selectRegion()">
                             <option value="" disabled selected>Select Region ...</option>
 				            <option value="Preston">Preston</option>
@@ -72,14 +72,16 @@
 				            <option value="Fish-Haven">Fish Haven</option>
                             </select>
                             </label>
-                        
+                        </div>
                         <div>In Danger?</div>
-                        <label><input type="radio" name="danger" value="yes">Yes</label>
-                        <label><input type="radio" name="danger" value="maybe">Maybe</label>
-                        <label><input type="radio" name="danger" value="no">No</label>
-                        <label>Additional Comments: <textarea></textarea></label>
+                        <label class="btn"><input type="radio" name="danger" value="yes"> Yes</label>
+                        <label class="btn"><input type="radio" name="danger" value="maybe"> <span>Maybe</span></label>
+                        <label class="btn"><input type="radio" name="danger" value="no"> <span>No</span></label>
+                        <label class="txtarea">Additional Comments: <textarea></textarea></label>
+                          <div>
                     </fieldset>
                     <input type="submit" value="Submit Report" class="submitBtn" >
+                    
                 </form>
             </main>
             <footer>
