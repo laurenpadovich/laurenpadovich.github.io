@@ -1,0 +1,49 @@
+section {
+    background-color:rgb(217, 211, 224);
+    border: 2px solid rgb(97, 75, 97);
+    text-align: center;
+    /*margin-bottom:.25em;
+    width:350px;*/
+    margin: 0 0 .25em 0;
+}
+h1{
+    color: rgb(70, 54, 70);
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align:center;
+}
+h2 {
+    color: rgb(70, 54, 70);
+    font-family: 'Noto Sans JP', sans-serif;
+}
+p {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    line-height:1em;
+}
+p:nth-last-of-type(1) {
+    padding-bottom: .25em;
+}
+img{
+    width:50%;
+    box-shadow: 1px 1px 30px rgb(54, 46, 54);
+    margin-bottom:.5em;
+}
+
+@media only screen and (min-width: 34.5em){
+    .cards {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    section {
+        margin: 0 .25em .25em 0;
+    }
+}
+
+@media only screen and (min-width: 54.5em){
+    .cards {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    section {
+        margin: 0 .25em .25em 0;
+    }
+}
