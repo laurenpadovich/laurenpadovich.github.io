@@ -1,0 +1,26 @@
+{
+    "marvel-characters": [
+        {
+            "villians": [
+                {
+                    "name": "Loki",
+                    "home": "Asgard"
+                },
+                {
+                    "name": "Thanos",
+                    "home": "Titan"
+                }
+            ],
+            "heroes": [
+                {
+                    "name": "Thor",
+                    "home": "Asgard"
+                },
+                {
+                    "name": "Iron Man",
+                    "home": "Earth"
+                }
+            ]
+        }
+    ]
+}
