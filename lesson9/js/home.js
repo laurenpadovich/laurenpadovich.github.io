@@ -14,7 +14,6 @@ window.addEventListener("load", (event) => {
                 let townsSection = document.getElementById('towns-section')
                 
                 let townSection = document.createElement('section')
-                townSection.id = town.name
 
                 let text = document.createElement('div')
 
