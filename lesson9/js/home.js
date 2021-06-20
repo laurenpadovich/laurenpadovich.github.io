@@ -24,7 +24,6 @@ window.addEventListener("load", (event) => {
                 let rain = document.createElement('h4')
                 let image = document.createElement('img')
 
-                // set the content of each element
                 name.textContent = town.name
                 phrase.textContent = town.motto
                 year.textContent = 'Year Founded: ' + town.yearFounded
