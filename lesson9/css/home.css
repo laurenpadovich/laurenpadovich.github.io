@@ -107,6 +107,11 @@ h4 {
     border-radius:15px;
 }
 
+#towns-section section:hover{
+    box-shadow: 7px 7px 11px grey;
+
+}
+
 section img {
     width:100%;
     border-radius:5px;
@@ -121,19 +126,50 @@ section h2 {
     
 }
 
-div p {
+section div p {
     font-style: italic;
     font-weight:bold;
 }
 
-footer {
+.contact {
+    line-height:1.5em;
+    background-color:#C4E1E8;
+}
+.map {
+    display:none;
+    
+}
+.contactinfo{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.contactinfo h4 {
+    font-weight:bold;
+    font-size:20px;
+    padding-top:10px;
+}
+.contactinfo h5 {
+    font-size:15px;
+    margin-bottom:0px;
+}
+.contactinfo p {
+    font-size: 15px;
+}
+
+.contactinfo img{
+    width:20px;
+}
+
+.footer, .currentdate {
     background-color: #97D0D8;
     color: #242C2D;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     text-align:center;
-    font-size:12px;
+    font-size:13px;
     display:block;
-    /*max-width:360px;*/
+    padding-top:5px;
+    padding-bottom:3px;
     margin: 0 auto;
 }
 @media only screen and (min-width: 34.5em){
@@ -185,18 +221,15 @@ footer {
         display: none;
     }
 
-    /*#towns-section{
-        display:flex;
-        flex-wrap: wrap;
-    }*/
-
-    #towns-section {
+    #towns-section section {
         display:grid;
         grid-template-columns: 1fr 1fr;
     }
 
     #towns-section section:nth-child(2) img {
         grid-column: 1;
+        height:200px;
+        
     }
 
     #towns-section section:nth-child(2) div {
@@ -206,6 +239,8 @@ footer {
 
     #towns-section section:nth-child(1) img {
         grid-column: 2;
+        height:200px;
+        
     }
 
     #towns-section section:nth-child(1) div {
@@ -215,6 +250,7 @@ footer {
 
     #towns-section section:nth-child(3) img {
         grid-column: 2;
+        height:auto;
     }
 
     #towns-section section:nth-child(3) div {
@@ -222,14 +258,26 @@ footer {
         grid-row:1;
     }
 
-    /*#towns-section section:nth-child(1) img {
+    .map{
+        display:block;
+        grid-column: 1;
+        grid-row: 1;
+        padding: 10px;
+        grid-column:1;
+        grid-row: 1;
+        width: 300px;
+        justify-self: right;
+        align-self: center;
+    }
+    .contact{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .contactinfo{
         grid-column: 2;
+        grid-row:1;
     }
 
-    #towns-section section div h2 p {
-        grid-column: 1;
-        grid-row:1;
-    }*/
 
     footer {
         font-size: 14px;
@@ -272,12 +320,53 @@ footer {
         grid-template-columns: repeat(3, 1fr);
     }
 
+    #towns-section section {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #towns-section section:nth-child(2) img {
+        grid-column: 1;
+        height:180px;
+        
+    }
+
+    #towns-section section:nth-child(2) div {
+        grid-column: 1;
+        
+    }
+
+    #towns-section section:nth-child(1) img {
+        grid-column: 1;
+        height:180px;
+        
+    }
+
+    #towns-section section:nth-child(1) div {
+        grid-column: 1;
+       
+    }
+
+    #towns-section section:nth-child(3) img {
+        grid-column: 1;
+        height:180px;
+    }
+
+    #towns-section section:nth-child(3) div {
+        grid-column: 1;
+        
+    }
+
+
     #towns-section section:nth-of-type(2) h4:nth-of-type(1){
         margin-top: 37px;
     }
  
     section img {
         height: 180px;
+    }
+
+    .map{
+        width:350px;
     }
 
     footer {
