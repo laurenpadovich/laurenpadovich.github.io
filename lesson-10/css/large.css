@@ -40,6 +40,7 @@
     }
     .forecast h4 {
         grid-column: 1/6;
+        font-size:25px;
     }
     .forecast {
         display:grid;
@@ -49,7 +50,18 @@
     .forecastimg {
         display: block;
         width: 75px;
-        
+    }
+    #day0, #day1, #day2, #day3, #day4 {
+        font-size:20px;
+    }
+    #temp0, #temp1, #temp2, #temp3, #temp4 {
+        font-size:20px;
+    }
+    main div.forecast{
+        margin-top:20px;
+    }
+    #forecastimgs img {
+        width:75px;
     }
     .summary {
         grid-row: 2/3;

@@ -93,16 +93,18 @@
         line-height: 1.5em;
         color: #242C2D;
         font-family: 'M PLUS Rounded 1c', sans-serif;
-        margin: 0 auto
+        margin: 0 auto;
+        background-color:#97D0D8;
+        padding:10px;
+        border-radius: 10px 10px;
+    }
+    #day0, #day1, #day2, #day3 {
+        padding-right:10px;
     }
     .forecast h4 {
         grid-column:1/2;
     }
-    .forecastimg {
-        display: block;
-        width: 60px;
-        padding: 10px;
-    }
+   
     main div.article {
         font-size: 17px;
         margin-top:10px;

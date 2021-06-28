@@ -12,6 +12,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Noto+Sans+JP&display=swap" rel="stylesheet">  
         <script src="js/preston.js"></script>
+        <script src="js/weatherapi.js"></script>
     </head>
     <body>
         <div id="pancake">
@@ -49,46 +50,53 @@
                 <div class="sumstats">
                     <div class="stat">
                         <p>Currently:</p>
-                        <p>65°F</p>
+                        <p><span id="status"></span></p>
+                    </div>
+                    <div class="stat">
+                        <p>Current Temp:</p>
+                        <p><span id="temp"></span>°F</p>
                     </div>
                     <div class="stat">
                         <p>High:</p>
-                        <p>77°F</p>
-                    </div>
-                    <div class="stat">
-                        <p>Low:</p>
-                        <p>45°F</p>
-                    </div>
-                    <div class="stat">
-                        <p>Precipitation:</p>
-                        <p>2%</p>
+                        <p><span id="high"></span>°F</p>
                     </div>
                     <div class="stat">
                         <p>Humidity:</p>
-                        <p>41%</p>
+                        <p><span id="humid"></span>%</p>
                     </div>
                     <div class="stat">
-                        <p>Wind:</p>
-                        <p>2mph</p>
+                        <p>Wind Chill:</p>
+                        <p><span id="chill"></span></p>
+                    </div>
+                    <div class="stat">
+                        <p>Wind Speed:</p>
+                        <p ><span id="wind"></span> mph</p>
                     </div>
                 </div>
             </div>
             <div class="forecast">
                 <h4>5 Day Forecast</h4>
                 <table>
-                    <tr>
-                        <th>Wed</th>
-                        <th>Thur</th>
-                        <th>Fri</th>
-                        <th>Sat</th>
-                        <th>Sun</th>
+                    <tr id="days">
+                        <th id="day0"></th>
+                        <th id="day1"></th>
+                        <th id="day2"></th>
+                        <th id="day3"></th>
+                        <th id="day4"></th>
+                    </tr>
+                    <tr id="forecastimgs">
+                        <td><img id="forecastimg0"  alt="day1"></td>
+                        <td><img id="forecastimg1"  alt="day1"></td>
+                        <td><img id="forecastimg2"  alt="day1"></td>
+                        <td><img id="forecastimg3"  alt="day1"></td>
+                        <td><img id="forecastimg4"  alt="day1"></td>
                     </tr>
                     <tr>
-                        <td><img class="forecastimg" src="images/sun.png" alt="day1">68°F</td>
-                        <td><img class="forecastimg" src="images/sun.png" alt="day1">64°F</td>
-                        <td><img class="forecastimg" src="images/sun.png" alt="day1">72°F</td>
-                        <td><img class="forecastimg" src="images/sun.png" alt="day1">75°F</td>
-                        <td><img class="forecastimg" src="images/sun.png" alt="day1">78°F</td>
+                        <th id="temp0"></th>
+                        <th id="temp1"></th>
+                        <th id="temp2"></th>
+                        <th id="temp3"></th>
+                        <th id="temp4"></th>
                     </tr>
                 </table>
             </div>
