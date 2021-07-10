@@ -99,7 +99,22 @@ main div.summary {
 }
 main div.forecast {
     display:none;
-
+}
+#event {
+    display: block;
+    font-size: 16px;
+    grid-column: 1/4;
+    line-height: 1em;
+    color: #242C2D;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    margin: 0 auto;
+    background-color:#C4E1E8;
+    padding:10px;
+    border-radius: 10px 10px;
+}
+hr {
+    display:block;
+    border: 1px solid #DB8906;
 }
 main div.article{
     margin: 10px auto;
@@ -130,6 +145,7 @@ main{
 }
 h2{
     font-size: 20px;
+    width:250px;
 }
 .hero {
     max-width: 100%;

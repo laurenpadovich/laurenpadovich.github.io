@@ -41,6 +41,7 @@ window.addEventListener("load", (event) => {
                 townSection.appendChild(image)
 
                 townsSection.appendChild(townSection)
+
             }
         }
     })

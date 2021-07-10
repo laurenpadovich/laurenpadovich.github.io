@@ -98,6 +98,10 @@
         padding:10px;
         border-radius: 10px 10px;
     }
+    #event {
+        font-size:17px;
+        margin-top:20px;
+    }
     #day0, #day1, #day2, #day3 {
         padding-right:10px;
     }

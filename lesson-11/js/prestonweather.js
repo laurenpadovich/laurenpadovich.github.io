@@ -35,7 +35,7 @@ fetch(apiURL)
         displayWindChill();
     })
 
-     const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=96f881dc52b0a77480e60ae03cff87e0&units=imperial'
+     const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=90a195bc8abc0068ab71c9bb981b7699&units=imperial'
 
      fetch(forecastURL)
      .then((response) => {
@@ -56,4 +56,35 @@ fetch(apiURL)
                 };
             })
         });
-     
+        window.addEventListener("load", (event) => {
+            requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json'
+        
+            fetch(requestURL)
+            .then(function (response) {
+                return response.json()
+            })
+            .then(function (townData) {
+                const towns = townData.towns
+                for (let i = 0; i < towns.length; i++){
+                    let town = towns[i]
+                    if (town.name == 'Preston'){
+                        let eventCard = document.createElement('section');
+                let eventText = document.createElement('div');
+                let eventLine = document.createElement('h3');
+                let line = document.createElement('hr');
+
+                for(let i = 0; i <town.events.length;i++){
+                    let eventDesc =document.createElement('p');
+                    eventDesc.textContent = town.events[i];
+                    eventText.appendChild(eventDesc);
+                }
+                eventLine.textContent = "Upcoming Events:";
+                eventCard.appendChild(eventLine);
+                eventCard.appendChild(line);
+                eventCard.appendChild(eventText);
+
+                document.querySelector("#event").appendChild(eventCard);
+            }
+                }
+            })
+        });
