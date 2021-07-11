@@ -32,6 +32,20 @@ header {
     justify-self: right;
     grid-column: 1/2;
 }
+figure img{
+    max-width:100%;
+}
+.loading {
+    background-color:lightgray;
+}
+.figure::before {
+    content:"";
+    display:block;
+    animation:load 3s;
+}
+figure{
+    margin: 15px;
+}
 h1 {
     font-size: 25px;
     margin-top: 1em;
@@ -99,22 +113,7 @@ main div.summary {
 }
 main div.forecast {
     display:none;
-}
-#event {
-    display: block;
-    font-size: 16px;
-    grid-column: 1/4;
-    line-height: 1em;
-    color: #242C2D;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    margin: 0 auto;
-    background-color:#C4E1E8;
-    padding:10px;
-    border-radius: 10px 10px;
-}
-hr {
-    display:block;
-    border: 1px solid #DB8906;
+
 }
 main div.article{
     margin: 10px auto;
@@ -145,9 +144,8 @@ main{
 }
 h2{
     font-size: 20px;
-    width:250px;
 }
-.hero {
+picture img{
     max-width: 100%;
 }
 .articleimg {
@@ -162,9 +160,6 @@ h2{
 footer a {
     color: #DB8906;
 }
-a {
-    color: #DB8906;
-}
 footer {
     background-color: #97D0D8;
     color: #242C2D;
@@ -172,41 +167,9 @@ footer {
     text-align:center;
     font-size:12px;
     display:block;
-    
+    max-width:360px;
     margin: 0 auto;
 }
 .contactinfo img {
     width:20px;
-}
-.contactinfo h4 {
-    font-weight:bold;
-    font-size:20px;
-    padding-top:10px;
-}
-.contact {
-    line-height:1.5em;
-    background-color:#C4E1E8;
-}
-.footer, .currentdate {
-    background-color: #97D0D8;
-    color: #242C2D;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    text-align:center;
-    font-size:13px;
-    display:block;
-    padding-top:5px;
-    padding-bottom:3px;
-    margin: 0 auto;
-}
-.contactinfo h4 {
-    font-weight:bold;
-    font-size:20px;
-    padding-top:10px;
-}
-.contactinfo h5 {
-    font-size:15px;
-    margin-bottom:0px;
-}
-.contactinfo p {
-    font-size: 15px;
 }

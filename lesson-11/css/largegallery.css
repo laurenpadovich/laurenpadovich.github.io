@@ -15,6 +15,22 @@
         text-align: center;
         font-size: 20px;
     }
+    main {
+        display:grid;
+        grid-template-columns: repeat(3, auto);
+    }
+    figure:hover {box-shadow: 0 0 50px #333;}
+    figure img { 
+        max-width:100%;
+        max-height: 100%;
+        background-color:lightblue;
+    }
+    div img { 
+        max-width:100%;
+        max-height: 100%;
+        background-color:lightblue;
+    }
+    
     h1 {
         font-size: 35px;
     }
@@ -28,11 +44,17 @@
         grid-column: 1/2;
     }
     main{
-        max-width: 760px;
+        max-width: 950px;
         margin: 0 auto;
     }
     h2{
         font-size: 30px;
+    }
+    picture{
+        max-width:100%;
+        grid-row:2/3;
+        display:block;
+        grid-column: 1/4;
     }
     main div {
         font-size: 19px;
@@ -40,7 +62,6 @@
     }
     .forecast h4 {
         grid-column: 1/6;
-        font-size:25px;
     }
     .forecast {
         display:grid;
@@ -50,26 +71,15 @@
     .forecastimg {
         display: block;
         width: 75px;
-    }
-    #day0, #day1, #day2, #day3, #day4 {
-        font-size:20px;
-    }
-    #temp0, #temp1, #temp2, #temp3, #temp4 {
-        font-size:20px;
-    }
-    main div.forecast{
-        margin-top:20px;
-    }
-    #forecastimgs img {
-        width:75px;
+        
     }
     .summary {
         grid-row: 2/3;
         opacity:.8;
         max-width: 30%;
-        height: 75%;
+        height: 50%;
         float: left;
-        align-self: center;
+        margin-top: 20px;
         margin-left: 20px;
         background-color: black;
         grid-column: 1/4;
@@ -137,8 +147,6 @@
     }
     footer {
         font-size: 16px;
-    }
-    .map{
-        max-width:400px;
+        max-width:850px;
     }
 }

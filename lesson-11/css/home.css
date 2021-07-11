@@ -94,6 +94,17 @@ h4 {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-weight: lighter;
 }
+.story{
+    border: 1px solid black;
+    border-radius:5px 5px;
+    background-color: #fff7ee;
+    margin-top: 10px;
+    padding:10px;
+}
+
+.story p{
+    line-height: 1.5em;
+}
 
 #towns-section{
     display:grid;
@@ -159,6 +170,9 @@ section div p {
 
 .contactinfo img{
     width:20px;
+}
+footer a {
+    color: #DB8906;
 }
 
 .footer, .currentdate {
@@ -265,8 +279,8 @@ section div p {
         padding: 10px;
         grid-column:1;
         grid-row: 1;
-        width: 300px;
-        justify-self: right;
+        width: 350px;
+        justify-self: center;
         align-self: center;
     }
     .contact{
@@ -279,7 +293,7 @@ section div p {
     }
 
 
-    footer {
+    .footer {
         font-size: 14px;
     }
 }
@@ -366,10 +380,10 @@ section div p {
     }
 
     .map{
-        width:350px;
+        width:400px;
     }
 
-    footer {
+    .footer {
         font-size: 16px;
         max-width:none;
     }
