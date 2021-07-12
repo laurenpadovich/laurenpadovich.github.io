@@ -1,0 +1,39 @@
+#navigation.responsive li {
+    display: block;
+}
+#navigation {
+    list-style: none;
+    padding: 0;
+    grid-template-columns: auto;
+    display: grid;
+}
+#navigation li:first-child {
+    display: block;
+}
+#navigation li {
+    display: none;
+}
+#navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    color: #242C2D;
+    font-size: 15px;
+}
+#navigation a.active {
+    background-color: #97D0D8;
+    color:#242C2D;
+}
+#navigation a:hover, #navigation a.active:hover {
+    color: #242C2D;
+    background-color: #97D0D8;
+}
+/*Medium View*/
+@media only screen and (min-width: 34.5em){
+
+}
+/*Large View*/
+@media only screen and (min-width: 54.5em){
+
+}

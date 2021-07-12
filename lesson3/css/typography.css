@@ -53,11 +53,11 @@ main{
     padding: .5em
 }
 h1, h2, h3, h4 {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Delius', cursive;
 }
 
 p {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 section {
     color: #242C2D;
@@ -67,11 +67,12 @@ footer a {
     color: #DB8906;
 }
 .p-font {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 header h1 {
     font-size: 30px;
     color: #242C2D;
+    font-family: 'Delius', cursive;
 }
 
 /*Medium Screen View*/
@@ -108,11 +109,11 @@ header h1 {
         
     }
     h1 {
-        font-family: 'Noto Sans JP', sans-serif;
+        font-family: 'Delius', cursive;
         font-size: 30px;
     }
     p {
-        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-family: 'Nanum Gothic', sans-serif;
         font-size: 20px;
     }
     header h1 {
@@ -120,7 +121,7 @@ header h1 {
         font-size:50px;
     }
     .p-font {
-        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-family: 'Nanum Gothic', sans-serif;
     }
     
     
