@@ -19,11 +19,13 @@ header {
     background-color: #fde5c4;
     margin: 0 auto;
 }
-.logo {
-    width: 80px;
-    padding: 15px;
+header a {
     justify-self: right;
     grid-column: 1/2;
+}
+header a img{
+    width: 80px;
+    padding: 15px;
 }
 h1 {
     font-size: 22px;
@@ -169,7 +171,7 @@ main img{
 }
 /*Medium View*/
 @media only screen and (min-width: 34.5em){
-    .logo{
+    header a img{
         width:90px;
     }
     h1{
@@ -219,7 +221,7 @@ main img{
     #navigation a {
         font-size:20px;
     }
-    .logo{
+    header a img{
         width:100px;
     }
     h1{
