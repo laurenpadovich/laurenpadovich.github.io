@@ -6,3 +6,13 @@ window.addEventListener('load', () => {
 
     window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
 });
+
+function urgencyNum(urgency){
+    document.querySelector('#urgency-show').textContent = urgency
+}
+
+window.addEventListener('load', (event) => {
+var d = new Date();
+const cry = document.querySelector("#currentyear");
+    cry.textContent = d.getFullYear();
+});

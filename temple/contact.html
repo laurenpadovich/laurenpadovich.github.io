@@ -6,9 +6,68 @@
         <meta name="description" content="">
         <link rel="shortcut icon" href="favicon.ico">
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="css/contact.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <title>Temple Inn & Suites</title> 
-        <script src=""></script>
+        <link href="https://fonts.googleapis.com/css2?family=Delius&family=Nanum+Gothic&display=swap" rel="stylesheet">
+        <title>Contact | Temple Inn & Suites</title> 
+        <script src="js/script.js"></script>
     </head>
+    <body>
+        <header>
+            <img class="logo" src="imgs/temple-icon.png" alt="logo">
+            <div>
+            <h1>Temple Inn & Suites</h1>
+            <p></p>
+            </div>
+        </header>
+        <nav>
+            <ul id="navigation">
+                <li><a class="ham" href="#">&#9776;</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="temples.html">Temples</a></li>
+                <li><a href="reservation.html">Reservations</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a class= "active" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="main-grid">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4048370285295!2d-77.09772048471741!3d38.983255949483805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0xceab47cd19a23a3b!2s4800%20Montgomery%20Ln%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1626140292385!5m2!1sen!2sus" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <form>
+                <fieldset>
+                    <legend>Contact us</legend>
+                    <div class="block">
+                    <label>Full Name: <input type="text" name="fname" pattern="[A-Za-z\s]{5,}[A-Za-z]" required></label>
+                    <br>
+                    <label>Email: <input type="email" name="email" placeholder="johndoe@gmail.com"></label>
+                    <br>
+                    <label>Phone Number: <input type="tel" name="phone#" required></label>
+                    <br>
+                    <label>Topic <input class="type" name="types" list="topics"></label>
+                    <datalist id="topics">
+                        <option value="Reservations">
+                        <option value="Services">
+                        <option value="Temples">
+                        <option value="Other">
+                    </datalist>
+                    <br>
+                    <label>Urgency: <em id="urgency-show">1</em><input type="range" min="1" max="10" onInput="urgencyNum(value)" id="urgency" name="urgency" value="1"></label>
+                    </div>
+                    <label class="txtarea">Message: <textarea></textarea></label>
+                </fieldset>
+                <input type="submit" value="Submit" class="submitBtn" >
+            </form>
+            </div>
+        </main>
+        <footer>
+            <div class="socials">
+                <a href="https://twitter.com" target="_blank"><img src="imgs/twitter.png"  alt="twitter"></a>
+                <a href="https://www.facebook.com" target="_blank"><img src="imgs/facebook.png"  alt="facebook"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="imgs/instagram.png"  alt="instagram"></a>
+            </div>
+            <div>
+                © <span id="currentyear"></span> | Temple Inn & Suites | All Rights Reserved
+                </div>
+        </footer>
+    </body>
 </html>

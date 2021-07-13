@@ -11,4 +11,24 @@
         <title>Temple Inn & Suites</title> 
         <script src=""></script>
     </head>
+    <body>
+        <main>
+            <form>
+                <fieldset>
+                    <legend>Contact us</legend>
+                    <div class="block">
+                    <label>Full Name: <input type="text" name="fname" pattern="[A-Za-z\s]{5,}[A-Za-z]" required></label>
+                    <br>
+                    <label>Email: <input type="email" name="email" placeholder="johndoe@gmail.com"></label>
+                    <br>
+                    <label>Phone Number: <input type="tel" name="phone#" required></label>
+                    <br>
+                    <label>Urgency: <em id="urgency-show">1</em><input type="range" min="1" max="10" onInput="urgencyNum(value)" id="urgency" name="urgency" value="1"></label>
+                    </div>
+                    <label class="txtarea">Message: <textarea></textarea></label>
+                </fieldset>
+                <input type="submit" value="Submit" class="submitBtn" >
+            </form>
+        </main>
+    </body>
 </html>
