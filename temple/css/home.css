@@ -11,11 +11,25 @@ h1, h2, h3, h4, h5 {
 p {
     font-family: 'Nanum Gothic', sans-serif;
 }
+h1 {
+    font-size: 22px;
+    margin-top: 1.2em;
+    font-family: 'Delius', cursive;
+}
+header div {
+    font-size: 15px;
+    justify-self: left;
+}
+header div p {
+    margin-top: -.5em;
+    font-family: 'Delius', cursive;
+}
 main{
     max-width:960px;
     display: grid;
     grid-template-columns: 300px 1fr;
     margin:0 auto;
+    grid-gap:5px;
 }
 header {
     display:grid;
@@ -23,11 +37,13 @@ header {
     background-color: #fde5c4;
     margin: 0 auto;
 }
-.logo {
-    width: 80px;
-    padding: 15px;
+header a {
     justify-self: right;
     grid-column: 1/2;
+}
+header a img{
+    width: 80px;
+    padding: 15px;
 }
 .banner{
     max-width: 850px;
@@ -133,6 +149,10 @@ footer {
     margin: 0 auto;
     padding:10px;
 }
+.socials img{
+    width:25px;
+    padding:3px;
+}
 /*Medium View*/
 @media only screen and (min-width: 34.5em){
     #navigation {
@@ -157,10 +177,25 @@ footer {
         max-height: 200px;
         align-self: center;
     }
+    header a img{
+        width:90px;
+    }
+    h1{
+        font-size:25px;
+    }
+    header div p{
+        font-size:18px;
+    }
 }
 /*Large View*/
 @media only screen and (min-width: 54.5em){
     #navigation a {
+        font-size:20px;
+    }
+    h1{
+        font-size:26px;
+    }
+    header div p{
         font-size:20px;
     }
     .banner{
@@ -176,5 +211,11 @@ footer {
     }
     .la-info{
         grid-column: 2;
+    }
+    footer{
+        font-size: 15px;
+    }
+    header a img{
+        width:100px;
     }
 }
