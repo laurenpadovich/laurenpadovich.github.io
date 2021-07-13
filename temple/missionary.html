@@ -6,12 +6,30 @@
         <meta name="description" content="">
         <link rel="shortcut icon" href="favicon.ico">
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="css/missionary.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Delius&family=Nanum+Gothic&display=swap" rel="stylesheet">
         <title>Temple Inn & Suites</title> 
-        <script src=""></script>
+        <script src="js/script.js"></script>
     </head>
     <body>
+            <header>
+                <img class="logo" src="imgs/temple-icon.png" alt="logo">
+                <div>
+                <h1>Temple Inn & Suites</h1>
+                <p>Making your temple experience even better!</p>
+                </div>
+            </header>
+            <nav>
+                <ul id="navigation">
+                    <li><a class="ham" href="#">&#9776;</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="temples.html">Temples</a></li>
+                    <li><a href="reservation.html">Reservations</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a class= "active" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
         <main>
             <form>
                 <fieldset>
@@ -30,5 +48,15 @@
                 <input type="submit" value="Submit" class="submitBtn" >
             </form>
         </main>
+        <footer>
+            <div class="socials">
+                <a href="https://twitter.com" target="_blank"><img src="imgs/twitter.png"  alt="twitter"></a>
+                <a href="https://www.facebook.com" target="_blank"><img src="imgs/facebook.png"  alt="facebook"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="imgs/instagram.png"  alt="instagram"></a>
+            </div>
+            <div>
+                © <span id="currentyear"></span> | Temple Inn & Suites | All Rights Reserved
+                </div>
+        </footer>
     </body>
 </html>
