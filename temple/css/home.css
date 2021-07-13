@@ -47,6 +47,7 @@ header a img{
 }
 .banner{
     max-width: 850px;
+    margin-top:10px;
     width:100%;
     grid-row:1;
     grid-column: 1/3;
@@ -138,6 +139,7 @@ button{
 .la-info{
     grid-column: 1/3;
     text-align: center;
+    line-height: 1.5em;
 }
 footer {
     background-color: #AFC0B2;

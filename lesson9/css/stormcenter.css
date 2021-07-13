@@ -91,15 +91,11 @@ form fieldset{
     font-family: 'M PLUS Rounded 1c', sans-serif;
     border-radius: 10px;
     border: 1px solid gray;
-    /*max-width:330px;
-    width:100%;*/
 }
 form {
-    /*max-width:330px;*/
     max-width:100%;
     margin-top:30px;
 }
-
 form legend{
     padding: 5px;
 }
