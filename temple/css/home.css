@@ -1,6 +1,22 @@
 body{
     background-color: #f8f2f3;
 }
+main img {
+    border-radius: 5px 5px;
+    box-shadow: 0px 0px 15px;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Delius', cursive;
+}
+p {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+main{
+    max-width:960px;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    margin:0 auto;
+}
 header {
     display:grid;
     grid-template-columns: repeat(2, auto);
@@ -12,6 +28,15 @@ header {
     padding: 15px;
     justify-self: right;
     grid-column: 1/2;
+}
+.banner{
+    max-width: 850px;
+    width:100%;
+    grid-row:1;
+    grid-column: 1/3;
+    justify-self: center;
+    align-self: center;
+    box-shadow: 0px 0px 0px;
 }
 h1 {
     font-size: 25px;
@@ -65,14 +90,48 @@ nav ul {
     color: white;
     background-color: #323630;
 }
+.reserve{
+    border-radius: 10px 10px;
+    background-color:#323630;
+    color: white;
+    margin:5px;
+    padding: 5px;
+    text-align: center;
+    grid-row:2;
+    grid-column:1/3;
+}
+.reserve h3{
+    font-weight:lighter;
+    font-size:25px;
+    line-height:1.5em;
+}
+.la {
+    
+    grid-column: 1/3;
+    max-width:600px;
+    width:95%;
+    align-self: center;
+    justify-self: center;
+}
+button{
+    font-family: 'Nanum Gothic', sans-serif;
+    padding:5px;
+    margin-bottom:5px;
+    font-weight:bold;
+}
+.la-info{
+    grid-column: 1/3;
+    text-align: center;
+}
 footer {
     background-color: #AFC0B2;
     color: #323630;
     font-family: 'Nanum Gothic', sans-serif;
     text-align:center;
-    font-size:12px;
+    font-size:15px;
     display:block;
     margin: 0 auto;
+    padding:10px;
 }
 /*Medium View*/
 @media only screen and (min-width: 34.5em){
@@ -89,10 +148,33 @@ footer {
         text-align: center;
         font-size:17px;
     }
+    .la {
+        grid-column: 2/3;
+        margin:5px;
+    }
+    .reserve{
+        grid-column: 1/2;
+        max-height: 200px;
+        align-self: center;
+    }
 }
 /*Large View*/
 @media only screen and (min-width: 54.5em){
     #navigation a {
         font-size:20px;
+    }
+    .banner{
+        justify-self: right;
+        grid-column:2/3;
+    }
+    .reserve{
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .la{
+        grid-column: 1;
+    }
+    .la-info{
+        grid-column: 2;
     }
 }
