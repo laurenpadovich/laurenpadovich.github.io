@@ -1,0 +1,116 @@
+{
+    "temples":[
+    {
+        "name":"Billings Montana Temple",
+        "phone":"406-655-0607",
+        "address1":"3100 Rim Point Dr",
+        "city":"Billings",
+        "state":"MT",
+        "zip":59106,
+        "link":"https://www.churchofjesuschrist.org/temples/details/billings-montana-temple?lang=eng",
+        "services":[
+            "Clothing rental available",
+            "No cafeteria available",
+            "No patron housing available",
+            "Distribution center nearby"
+        ],
+        "schedules":{
+            "ordinances":"",
+            "sessions":"",
+            "closures":[
+                "Saturday, 2 October 2021",
+                "Monday, 11 October 2021 - Monday, 6 December 2021",
+                "Friday, 24 December 2021 - Saturday, 25 December 2021",
+                "Friday, December 2021 (Limited Operations)"
+            ]
+        },
+        "imageurl":"https://assets.ldscdn.org/90/a0/90a0c0d599f94a2d955930e90fa95b9aa85a5004/idaho_falls_idaho_temple.png",
+        "president":"Vernan G. Hogge"
+    },
+
+    {
+        "name":"Detroit Michigan Temple",
+        "phone":"248-593-0690",
+        "address1":"37425 Woodward Ave",
+        "city":"Bloomfield Hills",
+        "state":"MI",
+        "zip":48304,
+        "link":"https://www.churchofjesuschrist.org/temples/details/detroit-michigan-temple?lang=eng",
+        "services":[
+            "No clothing rental available",
+            "No cafeteria available",
+            "No patron housing available",
+            "No distribution center nearby"
+        ],
+        "schedules":{
+            "ordinances":"",
+            "sessions":"",
+            "closures":[
+                "Monday, 12 July 2021",
+                "Wednesday, 24 November 2021 - Thursday, November 25 2021",
+                "Friday, 24 December 2021 - Saturday, 25 December 2021"
+            ]
+        },
+        "imageurl":"https://assets.ldscdn.org/90/a0/90a0c0d599f94a2d955930e90fa95b9aa85a5004/idaho_falls_idaho_temple.png",
+        "president":"Kaplin S. Jones"
+    },
+    {
+        "name":"Manti Utah Temple",
+        "phone":"435-835-2291",
+        "address1":"200 E 510 N",
+        "city":"Manti",
+        "state":"UT",
+        "zip":84642,
+        "link":"https://www.churchofjesuschrist.org/temples/details/manti-utah-temple?lang=eng",
+        "services":[
+            "Clothing rental available",
+            "No cafeteria available",
+            "No patron housing available",
+            "Distribution center nearby"
+        ],
+        "schedules":{
+            "ordinances":"",
+            "sessions":"",
+            "closures":[
+                "Saturday, 24 July 2021",
+                "Saturday, 2 October 2021",
+                "Sunday, 3 October 2021 - Wednesday, 18 October 2021",
+                "Wednesday, 24 November 2021 (Limited Operations)",
+                "Friday, 31 December 2021 (Limited Operations)"
+            ]
+        },
+        "imageurl":"https://assets.ldscdn.org/90/a0/90a0c0d599f94a2d955930e90fa95b9aa85a5004/idaho_falls_idaho_temple.png",
+        "president":"Richard W. Wheeler"
+    },
+    {
+        "name":"Memphis Tennessee Temple",
+        "phone":"901-379-0202",
+        "address1":"4199 Kirby-Whitten Pkwy",
+        "city":"Billings",
+        "state":"MT",
+        "zip":59106,
+        "link":"https://www.churchofjesuschrist.org/temples/details/memphis-tennessee-temple?lang=eng",
+        "services":[
+            "No Clothing rental available",
+            "No cafeteria available",
+            "No patron housing available",
+            "No Distribution center nearby"
+        ],
+        "schedules":{
+            "ordinances":"",
+            "sessions":"",
+            "closures":[
+                "Saturday, 2 October 2021",
+                "Monday, 4 October 2021 - Monday, 18 October 2021",
+                "Wednesday, 24 November 2021 - Thursday, 25 December 2021",
+                "Friday, 24 December 2021 - Saturday, 25 December 2021",
+                "Friday, 31 December 2021 - Saturday, 1 January 2022",
+                "Monday, 4 April 2022 - Monday, 30 May 2022"
+            ]
+        },
+        "imageurl":"https://assets.ldscdn.org/90/a0/90a0c0d599f94a2d955930e90fa95b9aa85a5004/idaho_falls_idaho_temple.png",
+        "president":"Robert G.McBride"
+    } 
+]
+}
+

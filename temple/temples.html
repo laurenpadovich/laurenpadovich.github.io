@@ -10,30 +10,89 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Delius&family=Nanum+Gothic&display=swap" rel="stylesheet">
         <title>Temples | Temple Inn & Suites</title> 
-        <script src="js/script.js"></script>
+        <script src="js/temples.js"></script>
     </head>
     <body>
         <header>
-            <img class="logo" src="imgs/temple-icon.png" alt="logo">
+            <a href=index.html target="_blank"> <img class="logo" src="imgs/temple-icon.png" alt="logo"></a>
             <div>
             <h1>Temple Inn & Suites</h1>
-            <p></p>
+            <p>Making your temple experience even better!</p>
             </div>
         </header>
         <nav>
             <ul id="navigation">
                 <li><a class="ham" href="#">&#9776;</a></li>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="temples.html">Temples</a></li>
+                <li><a class= "active" href="temples.html">Temples</a></li>
                 <li><a href="reservation.html">Reservations</a></li>
                 <li><a href="services.html">Services</a></li>
-                <li><a class= "active" href="contact.html">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
         <main>
+            <h1>Temple Information</h1>
+            <section>
+                <div id='card1'></div>
+                <a href="https://www.churchofjesuschrist.org/temples/details/billings-montana-temple?lang=eng">Click here for more</a>
+                <h3>History</h3>
+                <p>Plans to build a temple in Montana were announced in August 1996. About 4,800 people gathered during a spring snowstorm to witness the groundbreaking on March 28, 1998.
+                    Eight dedicatory sessions were held to accommodate all of the members of the area on November 20–21, 1999. church president Gordon B. Hinckley gave the dedicatory prayer.
+                    The Billings Montana Temple sits on the hillside in front of 300-foot (91 m) high sandstone cliffs. The single spire rises from a tiered tower. Stained-glass windows dominate the west end. Inside, a clear skylight allows patrons to glimpse the angel Moroni atop the spire. The exterior features Wyoming white dolomite with tan sandstone finish. The temple is used by the 36,000 members in Montana and northern Wyoming. It has a total floor area of 33,800 square feet (3,140 m2), two ordinance rooms, and three sealing rooms.</p>
+                    <h3>Current Weather Status</h3>
+                    <p id="billings-status"></p>
+                    <h3>Current Temperature</h3>
+                    <p><span id="billings-temp"></span>°F</p>
+                    <img src="imgs/billings.jpeg" alt="billings">
+                </section>
+            <section>
+            <div id='card2'></div>
+            <a href="https://www.churchofjesuschrist.org/temples/details/detroit-michigan-temple?lang=eng">Click here for more</a>
+            <h3>History</h3>
+            <p>Ground was broken on October 10, 1998. During a public open house, about 28,000 people toured the temple, seeing the beautiful architecture and furnishings as well as learning about the purpose of LDS temples.
+                Detroit Michigan Temple
+                Gordon B. Hinckley dedicated the temple on October 23, 1999. The temple features a classic modern single spire design constructed with Imperial Danby White marble quarried in Vermont. It has a total floor area of 10,700 square feet (990 m2), two ordinance rooms, and two sealing rooms.
+                The temple serves church members in the Lower Peninsula of Michigan, northwest Ohio and the church's London Ontario Stake, which includes the border towns of Sarnia and Windsor in Ontario. Sault Ste. Marie, Michigan and the eastern third of the Upper Peninsula is also in the temple district. Southwest Michigan around Benton Harbor, Kalamazoo, Battle Creek and Niles is currently assigned to the Chicago Illinois Temple.</p>
+                <h3>Current Weather Status</h3>
+                <p id="detroit-status"></p>
+                <h3>Current Temperature</h3>
+                <p><span id="detroit-temp"></span>°F</p>
+                <img src="imgs/Detroit-Michigan-Temple1.jpeg" alt="detroit">
+            </section>
+            <section>
+                <div id='card3'></div>
+                <a href="https://www.churchofjesuschrist.org/temples/details/manti-utah-temple?lang=eng">Click here for more</a>
+                <h3>History</h3>
+                <p>Brigham Young announced the decision to build a temple in Manti on June 25, 1875, and dedicated the site on April 25, 1877. On the day of the dedication, Young took Warren S. Snow to the southeast corner of the temple site and told him, "Here is the spot where the Prophet Moroni stood and dedicated this piece of land for a Temple site, and that is the reason why the location is made here, and we can't move it from this spot."
+                    The Salt Lake Temple had been announced in 1847, but construction was still underway and not finished until 1893. The Manti Temple was built, along with the St. George and Logan temples, to satisfy the church's immediate need for these structures. The site for the temple was the Manti Stone Quarry, a large hill immediately northeast of town. Early Mormon settlers in the area had prophesied that this would be the site of a temple. </p>
+                    <h3>Current Weather Status</h3>
+                    <p id="manti-status"></p>
+                    <h3>Current Temperature</h3>
+                    <p><span id="manti-temp"></span>°F</p>
+                    <img src="imgs/manti.jpeg" alt="manti">
+                </section>
+            <section>
+                <div id='card4'></div>
+                <a href="https://www.churchofjesuschrist.org/temples/details/memphis-tennessee-temple?lang=eng">Click here for more</a>
+                <h3>History</h3>
+                <p>Ground was broken for the Memphis Tennessee Temple on January 16, 1999. The temple in Memphis serves more than 20,000 members in Tennessee, Arkansas, Mississippi, and Missouri. On April 23, 2000, James E. Faust dedicated the building for its religious use.
 
+                    The Memphis Tennessee Temple has a total floor area of 10,700 square feet (990 m2), two ordinance rooms, and two sealing rooms.
+                    
+                    On April 10, 2017 the LDS Church announced that the temple would close in October 2017 for renovations that would be completed in 2019. As the renovations neared completion, the church originally announced there would be no open house, but an update on April 11, 2019 indicated there would be an open house from April 13 to April 20, excluding Sunday. The temple was rededicated on May 5, 2019 by Jeffrey R. Holland.</p>
+                    <h3>Current Weather Status</h3>
+                    <p id="memphis-status"></p>
+                    <h3>Current Temperature</h3>
+                    <p><span id="memphis-temp"></span>°F</p>
+                    <img src="imgs/memphis.jpg" alt="memphis">
+                </section>
         </main>
         <footer>
+            <div class="info">
+                <h3>Temple Inn & Suites</h3>
+                <p>1(800)123-4567</p>
+                <p>support@templeinn.com</p>
+            </div>
             <div class="socials">
                 <a href="https://twitter.com" target="_blank"><img src="imgs/twitter.png"  alt="twitter"></a>
                 <a href="https://www.facebook.com" target="_blank"><img src="imgs/facebook.png"  alt="facebook"></a>

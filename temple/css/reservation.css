@@ -68,6 +68,9 @@ nav ul {
     color: white;
     background-color: #323630;
 }
+main h1{
+    text-align: center;
+}
 form fieldset{
     text-align: left;
     font-family: 'Nanum Gothic', sans-serif;

@@ -11,8 +11,10 @@ function urgencyNum(urgency){
     document.querySelector('#urgency-show').textContent = urgency
 }
 
-window.addEventListener('load', (event) => {
+window.addEventListener('load', () => {
 var d = new Date();
 const cry = document.querySelector("#currentyear");
     cry.textContent = d.getFullYear();
+
+    
 });
