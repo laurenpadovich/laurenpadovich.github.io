@@ -13,6 +13,9 @@ h1, h2, h3, h4, h5 {
 p {
     font-family: 'Nanum Gothic', sans-serif;
 }
+header div:nth-of-type(1){
+    grid-column: 2/6;
+}
 header a {
     justify-self: right;
     grid-column: 1/2;

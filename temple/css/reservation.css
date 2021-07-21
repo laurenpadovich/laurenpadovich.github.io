@@ -7,6 +7,9 @@ header {
     background-color: #fde5c4;
     margin: 0 auto;
 }
+header div:nth-of-type(1){
+    grid-column: 2/6;
+}
 header a {
     justify-self: right;
     grid-column: 1/2;
