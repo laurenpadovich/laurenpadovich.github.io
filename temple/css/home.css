@@ -153,6 +153,12 @@ footer {
     margin: 0 auto;
     padding:10px;
 }
+.bottom-foot{
+    padding:5px;
+}
+footer a{ 
+    color: #09408d;
+}
 .socials img{
     width:25px;
     padding:3px;
